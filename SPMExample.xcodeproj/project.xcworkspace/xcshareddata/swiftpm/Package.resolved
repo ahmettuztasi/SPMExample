@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SPMLibrary",
+        "repositoryURL": "https://github.com/ahmettuztasi/SPMLibrary.git",
+        "state": {
+          "branch": "main",
+          "revision": "b5499368056450b49b61426eb68016d1545966af",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
