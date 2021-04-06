@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         let lib = SPMLibrary()
         
         infoLabel.text = lib.text
+        infoLabel.text = SPMManager.shared.getNaturalNumber()
         lib.sayHello()
     }
 

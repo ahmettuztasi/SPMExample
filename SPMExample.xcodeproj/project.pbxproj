@@ -23,6 +23,7 @@
 		E3957274261C6C9200CDDC86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3957277261C6C9200CDDC86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3957279261C6C9200CDDC86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3CB637F261C9F6E0039393C /* SPMLibrary */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SPMLibrary; path = ../SPMLibrary; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		E395725F261C6C9100CDDC86 = {
 			isa = PBXGroup;
 			children = (
+				E3CB637F261C9F6E0039393C /* SPMLibrary */,
 				E395726A261C6C9100CDDC86 /* SPMExample */,
 				E3957269261C6C9100CDDC86 /* Products */,
 			);
