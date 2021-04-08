@@ -2,11 +2,29 @@
   "object": {
     "pins": [
       {
+        "package": "PromiseKit",
+        "repositoryURL": "https://github.com/mxcl/PromiseKit.git",
+        "state": {
+          "branch": null,
+          "revision": "aea48ea1855f5d82e2dffa6027afce3aab8f3dd7",
+          "version": "6.13.3"
+        }
+      },
+      {
         "package": "SPMLibrary",
         "repositoryURL": "https://github.com/ahmettuztasi/SPMLibrary.git",
         "state": {
           "branch": "main",
-          "revision": "b5499368056450b49b61426eb68016d1545966af",
+          "revision": "d2bf281c45c814c90f3b73c313381d891ea16051",
+          "version": null
+        }
+      },
+      {
+        "package": "SuperLibrary",
+        "repositoryURL": "https://github.com/linqingmo/SuperLibrary.git",
+        "state": {
+          "branch": "master",
+          "revision": "4fd4e0ccbe2c3bfcc80552d44e08995882118537",
           "version": null
         }
       }

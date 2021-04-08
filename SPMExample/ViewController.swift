@@ -7,6 +7,8 @@
 
 import UIKit
 import SPMLibrary
+import PromiseKit
+import SuperLibrary
 
 class ViewController: UIViewController {
 
@@ -18,8 +20,10 @@ class ViewController: UIViewController {
         let lib = SPMLibrary()
         
         infoLabel.text = lib.text
-        infoLabel.text = SPMManager.shared.getNaturalNumber()
+//        infoLabel.text = SPMManager.shared.getNaturalNumber()
         lib.sayHello()
+        
+        print(Promise().isPending)
     }
 
 

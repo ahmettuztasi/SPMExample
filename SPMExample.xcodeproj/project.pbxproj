@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E39097C3261F23F30065F78C /* SuperLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = E39097C2261F23F30065F78C /* SuperLibrary */; };
+		E39097C4261F23F30065F78C /* SuperLibrary in Embed Frameworks */ = {isa = PBXBuildFile; productRef = E39097C2261F23F30065F78C /* SuperLibrary */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		E3915D4F261C709200B3A4DF /* SPMLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = E3915D4E261C709200B3A4DF /* SPMLibrary */; };
 		E395726C261C6C9100CDDC86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E395726B261C6C9100CDDC86 /* AppDelegate.swift */; };
 		E3957270261C6C9100CDDC86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E395726F261C6C9100CDDC86 /* ViewController.swift */; };
 		E3957273261C6C9100CDDC86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3957271261C6C9100CDDC86 /* Main.storyboard */; };
 		E3957275261C6C9200CDDC86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3957274261C6C9200CDDC86 /* Assets.xcassets */; };
 		E3957278261C6C9200CDDC86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3957276261C6C9200CDDC86 /* LaunchScreen.storyboard */; };
+		E3A90C4E261EF10300FC9358 /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = E3A90C4D261EF10300FC9358 /* PromiseKit */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E39097C5261F23F40065F78C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E39097C4261F23F30065F78C /* SuperLibrary in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		E39097C7261F37EC0065F78C /* SPMLibrary */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SPMLibrary; path = ../SPMLibrary; sourceTree = "<group>"; };
 		E3957268261C6C9100CDDC86 /* SPMExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPMExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E395726B261C6C9100CDDC86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E395726F261C6C9100CDDC86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +41,6 @@
 		E3957274261C6C9200CDDC86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3957277261C6C9200CDDC86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3957279261C6C9200CDDC86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3CB637F261C9F6E0039393C /* SPMLibrary */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SPMLibrary; path = ../SPMLibrary; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +49,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3915D4F261C709200B3A4DF /* SPMLibrary in Frameworks */,
+				E3A90C4E261EF10300FC9358 /* PromiseKit in Frameworks */,
+				E39097C3261F23F30065F78C /* SuperLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,7 +60,7 @@
 		E395725F261C6C9100CDDC86 = {
 			isa = PBXGroup;
 			children = (
-				E3CB637F261C9F6E0039393C /* SPMLibrary */,
+				E39097C7261F37EC0065F78C /* SPMLibrary */,
 				E395726A261C6C9100CDDC86 /* SPMExample */,
 				E3957269261C6C9100CDDC86 /* Products */,
 			);
@@ -78,6 +97,7 @@
 				E3957264261C6C9100CDDC86 /* Sources */,
 				E3957265261C6C9100CDDC86 /* Frameworks */,
 				E3957266261C6C9100CDDC86 /* Resources */,
+				E39097C5261F23F40065F78C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -86,6 +106,8 @@
 			name = SPMExample;
 			packageProductDependencies = (
 				E3915D4E261C709200B3A4DF /* SPMLibrary */,
+				E3A90C4D261EF10300FC9358 /* PromiseKit */,
+				E39097C2261F23F30065F78C /* SuperLibrary */,
 			);
 			productName = SPMExample;
 			productReference = E3957268261C6C9100CDDC86 /* SPMExample.app */;
@@ -116,6 +138,8 @@
 			mainGroup = E395725F261C6C9100CDDC86;
 			packageReferences = (
 				E3915D4D261C709200B3A4DF /* XCRemoteSwiftPackageReference "SPMLibrary" */,
+				E3A90C4C261EF10300FC9358 /* XCRemoteSwiftPackageReference "PromiseKit" */,
+				E39097C1261F23F30065F78C /* XCRemoteSwiftPackageReference "SuperLibrary" */,
 			);
 			productRefGroup = E3957269261C6C9100CDDC86 /* Products */;
 			projectDirPath = "";
@@ -349,6 +373,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		E39097C1261F23F30065F78C /* XCRemoteSwiftPackageReference "SuperLibrary" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/linqingmo/SuperLibrary.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		E3915D4D261C709200B3A4DF /* XCRemoteSwiftPackageReference "SPMLibrary" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ahmettuztasi/SPMLibrary.git";
@@ -357,13 +389,31 @@
 				kind = branch;
 			};
 		};
+		E3A90C4C261EF10300FC9358 /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mxcl/PromiseKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.13.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		E39097C2261F23F30065F78C /* SuperLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E39097C1261F23F30065F78C /* XCRemoteSwiftPackageReference "SuperLibrary" */;
+			productName = SuperLibrary;
+		};
 		E3915D4E261C709200B3A4DF /* SPMLibrary */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E3915D4D261C709200B3A4DF /* XCRemoteSwiftPackageReference "SPMLibrary" */;
 			productName = SPMLibrary;
+		};
+		E3A90C4D261EF10300FC9358 /* PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3A90C4C261EF10300FC9358 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PromiseKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
